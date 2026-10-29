@@ -27,12 +27,11 @@ A ZIP download and SHA-256 checksums are also provided. From version 0.1.1, use 
 - On-device speech recognition, with models for multilingual speech and Japanese streaming.
 - Apple Translation on your Mac, Google Translation (free), or Google Cloud Translation with your API key.
 - Translation targets: Simplified Chinese, English, and Korean.
-- Configurable rolling subtitles, appearance, keyboard shortcuts, and screen placement.
-- Searchable caption history held in memory during the session.
+- A single current subtitle with configurable appearance, keyboard shortcuts, and screen placement.
 - In-app update checking, downloads, and installation after you choose to restart.
 
 ## Privacy
 
-Speech recognition runs locally. Captured audio is not saved. Apple Translation runs locally; selecting a Google translation engine sends caption text to Google. Caption history stays in memory until you start a new session or quit.
+Speech recognition runs locally. Captured audio is not saved. Apple Translation runs locally; selecting a Google translation engine sends caption text to Google. Captions are displayed live without a saved transcript or translation history.
 
 This repository hosts downloadable builds. Source is maintained separately. Third-party license notices are included in the app bundle under `Contents/Resources/Licenses`.
