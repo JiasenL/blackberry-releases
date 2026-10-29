@@ -20,7 +20,7 @@ Live subtitles for system audio on Apple Silicon Macs, with local speech recogni
 
 The app is signed with an Apple Development certificate and is **not notarized**. If macOS blocks a trusted download, try opening the app, then use **System Settings → Privacy & Security → Open Anyway**. [Apple's instructions](https://support.apple.com/102445). Managed Macs may restrict this.
 
-A ZIP download and SHA-256 checksums are also provided. Updates are installed manually by downloading a newer version and replacing the app in Applications. Intel Macs and Windows are not supported by these native Mac builds.
+A ZIP download and SHA-256 checksums are also provided. From version 0.1.1, use **Check for Updates…** in the menu bar or **Settings → Updates** to download a newer version and choose **Install and Relaunch**. Automatic checks run every six hours and can be disabled in Settings. Update feeds and downloads are verified with cryptographic signatures. Users of version 0.1.0 need to install 0.1.1 manually once to get the updater. Intel Macs and Windows are not supported by these native Mac builds.
 
 ## Features
 
@@ -29,6 +29,7 @@ A ZIP download and SHA-256 checksums are also provided. Updates are installed ma
 - Translation targets: Simplified Chinese, English, and Korean.
 - Configurable rolling subtitles, appearance, keyboard shortcuts, and screen placement.
 - Searchable caption history held in memory during the session.
+- In-app update checking, downloads, and installation after you choose to restart.
 
 ## Privacy
 
